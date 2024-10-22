@@ -1,11 +1,11 @@
 ﻿using System.Windows.Forms;
-using static Task01.OpenGL;
 
 
-namespace Task01
+namespace PR1_Petrenko_program
 {
     public partial class MainForm : Form
     {
+        //private RenderControl renderControl;
         public MainForm()
         {
             InitializeComponent();

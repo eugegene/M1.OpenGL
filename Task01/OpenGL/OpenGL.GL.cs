@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace Task01
+namespace PR1_Petrenko_program
 {
     public partial class OpenGL
     {

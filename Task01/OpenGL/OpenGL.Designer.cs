@@ -1,5 +1,5 @@
 ﻿
-namespace Task01
+namespace PR1_Petrenko_program
 {
     partial class OpenGL
     {

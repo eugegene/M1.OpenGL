@@ -4,7 +4,7 @@ using System.Drawing;
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace Task01
+namespace PR1_Petrenko_program
 {
     partial class OpenGL
     {
