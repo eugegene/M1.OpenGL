@@ -1,5 +1,5 @@
 ﻿
-namespace PR1_Petrenko_program
+namespace PR2_Petrenko_program
 {
     partial class OpenGL
     {

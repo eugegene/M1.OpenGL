@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Windows.Forms;
 
-namespace PR1_Petrenko_program
+namespace PR2_Petrenko_program
 {
     [ToolboxItem(false), DefaultEvent("Render")]
     public partial class OpenGL : UserControl

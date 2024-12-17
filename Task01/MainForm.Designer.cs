@@ -1,5 +1,5 @@
 ﻿
-namespace Task01
+namespace PR1_Petrenko_program
 {
     partial class MainForm
     {
@@ -30,21 +30,38 @@ namespace Task01
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            this.SuspendLayout();
+            renderControl1 = new RenderControl();
+            SuspendLayout();
+            // 
+            // renderControl1
+            // 
+            renderControl1.BackColor = System.Drawing.Color.Transparent;
+            renderControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            renderControl1.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            renderControl1.ForeColor = System.Drawing.Color.White;
+            renderControl1.Location = new System.Drawing.Point(0, 0);
+            renderControl1.Name = "renderControl1";
+            renderControl1.Size = new System.Drawing.Size(543, 281);
+            renderControl1.TabIndex = 0;
+            renderControl1.TextCodePage = 65001;
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(624, 324);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "MainForm";
-            this.Text = "Main Form";
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new System.Drawing.SizeF(10F, 19F);
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            ClientSize = new System.Drawing.Size(543, 281);
+            Controls.Add(renderControl1);
+            Font = new System.Drawing.Font("Play", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            Icon = (System.Drawing.Icon)resources.GetObject("$this.Icon");
+            Margin = new System.Windows.Forms.Padding(4);
+            Name = "MainForm";
+            Text = "Main Form";
+            ResumeLayout(false);
         }
 
         #endregion
+
+        private RenderControl renderControl1;
     }
 }
 

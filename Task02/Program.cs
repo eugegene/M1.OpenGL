@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PR1_Petrenko_program
+namespace PR2_Petrenko_program
 {
     internal static class Program
     {

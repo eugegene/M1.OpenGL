@@ -1,7 +1,11 @@
 ﻿
-namespace PR1_Petrenko_program
+using System.ComponentModel;
+using System.Drawing;
+
+namespace PR2_Petrenko_program
 {
-    partial class OpenGL
+    [ToolboxItem(true), ToolboxBitmap(typeof(RenderControl), "RenderControl.bmp"), DefaultEvent("")]
+    partial class RenderControl
     {
         /// <summary> 
         /// Required designer variable.
@@ -29,16 +33,17 @@ namespace PR1_Petrenko_program
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
+            SuspendLayout();
             // 
-            // OpenGL
+            // RenderControl
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Name = "OpenGL";
-            this.Size = new System.Drawing.Size(158, 147);
-            this.ResumeLayout(false);
-
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            BackColor = Color.SlateGray;
+            ForeColor = Color.White;
+            Name = "RenderControl";
+            Size = new Size(480, 300);
+            Render += OnRender;
+            ResumeLayout(false);
         }
 
         #endregion
