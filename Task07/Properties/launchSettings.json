@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PR7_Petrenko_program": {
+      "commandName": "Project",
+      "commandLineArgs": "/s"
+    }
+  }
+}
